@@ -1,7 +1,7 @@
 Clementine_SyncLovedLastfmTracks
 ================================
 
-This Python script marks loved last.fm tracks with 5 stars rating in Clementine audio player.
+This Python 3 script marks loved last.fm tracks with 5 stars rating in Clementine audio player.
 
 by Thomas Bartensud
 
@@ -17,7 +17,7 @@ Tested with
 
 QUICKSTART
 --------------
-If you're under Linux, just start the Python 3 script with the last.fm user:
+If you're under Linux, just start the Python 3 script and pass the last.fm user:
 python3 Clementine_SyncLovedLastfmTracks.py LASTFMUSER
 
 For an other OS you need to pass also the Clementine's DB file (see parameter --pathoDB below)
