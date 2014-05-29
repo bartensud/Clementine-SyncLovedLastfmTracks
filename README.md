@@ -6,7 +6,7 @@ This Python 3 script marks loved last.fm tracks with 5 stars rating in Clementin
 by Thomas Bartensud
 
 
-PRE-REQUISITES:
+PRE-REQUISITES
 --------------
 - Python 3 installed
 - Clementine SQLite DB File, see http://bit.ly/1hiMGNH (while Clementine itself is not needed)
@@ -19,9 +19,9 @@ If you're under Linux, just start the Python 3 script and pass the last.fm user:
 python3 Clementine_SyncLovedLastfmTracks.py LASTFMUSER
 ```
 
-For an other OS you need to pass also the Clementine's DB file (see parameter --pathoDB below)
+For an other OS you need to pass also Clementine's DB file (see parameter --pathoDB below)
 
-USAGE:
+USAGE
 --------------
 ```
 Clementine_SyncLovedLastfmTracks.py LASTFMUSER [options]
@@ -44,7 +44,7 @@ optional arguments:
 Backup of Clementine DB will be done automatically.
 ```
 
-NOTES:
+NOTES
 --------------
 - In order to avoid data loss ensure that no Clementine process is running
 - Backup of Clementine DB (SQLite file) will be done automatically
@@ -55,7 +55,7 @@ Tested with
 - Clementine 1.1.1 and Python 3.3.2 under OpenSUSE 13.1
 
 
-TODO:
+TODO
 --------------
 - automatically recognise the OS to pre-select the according path to Clementine's DB file
 
