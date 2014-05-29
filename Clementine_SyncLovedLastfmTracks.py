@@ -7,7 +7,7 @@ import os.path
 import shutil
 import argparse
 from datetime import datetime
-from net.elektronengehirn.lastfm import *
+from net.elektronengehirn.LastFM import *
 
 
 scriptDescription = 'This script marks loved last.fm tracks with 5 stars in Clementine.'
