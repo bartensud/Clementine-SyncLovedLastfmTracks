@@ -11,7 +11,7 @@ import urllib.error
 class LastFM:
     """A class for providing a user's loved tracks at last.fm"""
     apiKey = "c0b0c4e03c75ff9c09a87aecf3d7a731"  # for last.fm app: LovedSongsImporter
-    trackLimit = 65535
+    trackLimit = 1000
     __urlTemplate = "http://ws.audioscrobbler.com/2.0/?method=user.getlovedtracks&user=%s&api_key=%s&limit=%d"
 
     def __init__(self, apiKey=None):
