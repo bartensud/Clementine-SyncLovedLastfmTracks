@@ -3,7 +3,6 @@
 This Python 3 script marks loved last.fm tracks of a certain user with 5 stars rating in Clementine music player.
 It works also for Strawberry Music Player which is a clone of Clementine.
 
-by Thomas Bartensud
 
 
 ## Pre-requisites
@@ -36,7 +35,7 @@ Done.
 - Clementine: https://groups.google.com/g/clementine-player/c/KJOQmDK9mmI
 - Strawberry: https://wiki.strawberrymusicplayer.org/wiki/Accessing_the_database
 
-The path to the DB file needs to be passed by command line parameter "--pathToDB"
+The path to the DB file needs to be passed by command line parameter `--pathToDB`
 
 
 
